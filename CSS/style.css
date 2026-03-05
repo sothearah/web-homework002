@@ -1,0 +1,318 @@
+/* boxmodel */
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+/* navbar */
+.nav-link a {
+  text-decoration: none;
+  color: #2dc653;
+  font-weight: bold;
+}
+
+/* make each list uppercase */
+.list-header {
+  text-transform: uppercase;
+}
+
+/* session one paragraph */
+.session-1-para {
+  text-align: start;
+}
+
+/* image border */
+.hospital-img {
+  border: 4px solid #2dc653;
+  border-radius: 10px 0;
+  box-shadow: 8px #1a7431;
+}
+
+/* table style */
+table {
+  border-collapse: separate;
+  border: none;
+}
+
+/* .table-info {
+    border: red 1px solid;
+} */
+
+.info-table th {
+  background-color: #2dc653;
+  border-radius: 20px;
+  color: #abf2bc;
+  border: 2px solid;
+  border-color: #81fc9f;
+  margin: 4px;
+}
+
+.info-table td {
+  border: 1px #4faf6e;
+  border-radius: 20px;
+  background: #c7f9cc6c;
+  color: rgb(1, 106, 128);
+  border: 2px solid #80d294;
+}
+
+/* td of index hover */
+.info-table .table-tr-td th:hover {
+  color: #a7f6ba;
+  background: #4faf6e;
+  /* border: #4faf6e 1px solid; */
+}
+
+.info-table tbody tr td:hover {
+  color: #4faf6e;
+}
+
+.para-1 {
+  background: rgb(216, 250, 255);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 2px 7px 2px lightblue;
+  margin-right: 20px;
+}
+
+.para-2 {
+  background: rgba(172, 255, 47, 0.448);
+  text-align: center;
+  border-radius: 8px;
+  margin: 0 20px;
+  box-shadow: 2px 2px 7px 2px rgb(154, 203, 81);
+}
+
+.para-3 {
+  background: pink;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 2px 7px 2px hotpink;
+  margin: 0 20px;
+}
+
+.para-4 {
+  background: rgba(255, 160, 122, 0.605);
+  text-align: center;
+  border-radius: 8px;
+  margin: 0 20px;
+  box-shadow: 2px 2px 7px 2px rgba(255, 166, 0, 0.547);
+}
+
+/* share exprirence */
+.share-expri a:hover {
+  color: #2c9b48;
+  background: #7fd8965a;
+}
+
+.table-container {
+  width: 1200px;
+}
+
+.table-para {
+  width: 250px !important;
+  /* height: 300px */
+}
+
+.table-container tr {
+  border-spacing: 10px;
+}
+
+.share-expri a {
+  padding: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #2dc653;
+  background: #b9f8c0;
+}
+
+/* footer */
+.footer-container {
+  margin-top: 100px;
+  background: #2dc653;
+  height: 200px;
+  color: aliceblue;
+}
+
+/* share exprience */
+.body-container {
+  background-image: url("../image/pic5.jpg");
+}
+
+.form-container {
+  margin: 100px auto;
+  border-radius: 20px;
+  width: 50%;
+  background-color: rgb(102, 165, 192);
+  padding: 20px;
+  opacity: 94%;
+}
+
+.input-lable {
+  margin: 5px;
+  padding: 4px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* home page button */
+.home-button {
+  background: rgba(255, 192, 203, 0.29);
+  color: white;
+  border-width: 1px 1px 2px 2px;
+  border-style: solid;
+  border-color: rgb(247, 125, 186);
+  border-radius: 10px;
+  padding: 8px;
+  text-decoration: none;
+  font-size: smaller;
+}
+
+.home-button:hover {
+  border-width: 1px 1px 2px 2px;
+  border-color: rgb(251, 60, 156);
+  background: rgba(255, 192, 203, 0.541);
+}
+
+.one {
+  color: white;
+  background: #bb3e045e;
+  border-width: 1px 1px 2px 2px;
+  border-style: solid;
+  border-color: #bb3e04;
+}
+
+.one:hover {
+  color: white;
+  background: #bb3e04ad;
+  border-width: 1px 1px 2px 2px;
+  border-style: solid;
+  border-color: red;
+}
+
+.two {
+  color: white;
+  background: rgba(0, 128, 0, 0.157);
+  border-width: 1px 2px 1px 1px;
+  border-style: solid;
+  border-color: green;
+}
+
+.two:hover {
+  color: white;
+  background: rgba(0, 128, 0, 0.418);
+  border-width: 1px 1px 2px 2px;
+  border-style: solid;
+  border-color: rgb(1, 69, 1);
+}
+
+textarea {
+  padding: 4px;
+  border-radius: 10px;
+}
+
+/* appointment */
+.appointment-container {
+  background-image: url("../image/pic6.jpg");
+}
+
+.container-appoinment {
+  color: white;
+  width: 50%;
+  margin: 100px auto;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 90%;
+  background: rgba(128, 128, 128, 0.244);
+  border: solid lightskyblue;
+  border-width: 2px 2px 8px 8px;
+}
+
+.appointment-input {
+  background: rgb(202, 202, 202);
+  color: white;
+  padding: 6px;
+  border: none;
+  border-radius: 10px;
+  margin: 4px;
+}
+
+.appointment-input input {
+  color: white;
+}
+
+.reset-btn {
+  color: white;
+  background: rgba(244, 165, 96, 0.503);
+  border: 1px solid sandybrown;
+}
+
+.reset-btn:hover {
+  color: white;
+  background: sandybrown;
+  border: 1px solid rgba(244, 149, 65, 0.414);
+}
+
+.submit-btn {
+  color: white;
+  background: rgba(0, 0, 128, 0.299);
+  border: 1px solid navy;
+}
+
+.submit-btn:hover {
+  color: white;
+  background: navy;
+  border: 1px solid rgba(0, 0, 128, 0.422);
+}
+
+/* location container */
+.location-container {
+  background-image: url("../image/pic4.jpg");
+}
+
+td a {
+  text-decoration: none;
+  color: rgb(7, 213, 255);
+  font-weight: bold;
+}
+
+.location-table {
+  opacity: 90%;
+  /* background: lightgrey; */
+  border: solid rgba(0, 136, 220, 0.551);
+  border-width: 2px;
+  box-shadow: 4px 4px 10px #00ccff;
+}
+
+.location-header {
+  color: rgb(3, 151, 181);
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 10px;
+}
+
+.td-infor a:hover {
+  background: rgba(8, 198, 236, 0.528);
+  color: #024859;
+  padding: 5px;
+}
+
+/* overall */
+.location-header:hover {
+  color: #02fe41;
+  border-style: solid;
+  border-width: 2px 0 0 0;
+  border-color: #028b12;
+}
+
+hr {
+  border: seagreen;
+  height: 2px;
+}
+
+nav {
+  margin-top: 0;
+  border-bottom: 2px solid rgba(0, 128, 0, 0.019);
+  height: 30px;
+  background: rgba(177, 209, 247, 0.073) 000;
+}

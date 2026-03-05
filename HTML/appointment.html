@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunrise Care Appointment</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body class="appointment-container">
+    <nav align="center" class="navbar nav-link">
+      <a class="nav-link" href="/HTML/index.html">Home</a> &nbsp;|&nbsp;
+      <a class="nav-link" href="/HTML/appointment.html">Appointment</a>
+      &nbsp;|&nbsp;
+      <a class="nav-link" href="/HTML/location.html">Location</a> &nbsp;|&nbsp;
+    </nav>
+    <hr />
+
+    <div class="container-appoinment">
+      <h1>Appointment Form</h1>
+      <label for="username">Full Name : </label>
+      <input class="appointment-input" type="text" placeholder="Chan" />
+      &nbsp;|&nbsp;
+      <input class="appointment-input" type="text" placeholder="Mony" />
+      <br />
+      <label>Is your first time visit:</label>
+      <input class="appointment-input" type="radio" name="visit" />
+      <label>Yes</label>
+      <input class="appointment-input" type="radio" name="visit" />
+      <label>No</label>
+      <br />
+      <label for="email">Email</label>
+      <input
+        class="appointment-input"
+        dir="rtl"
+        type="email"
+        placeholder="someone@gmail.com"
+        pattern="[a-z0-9._%+-]+@gmail\.com"
+        required
+      />
+      <br />
+      <label for="tel">Phone Number : </label>
+      <input
+        class="appointment-input"
+        type="tel"
+        placeholder="12 123 123"
+        required
+        pattern="[0-9]{2} [0-9]{3} [0-9]{3}"
+      />
+      <br />
+      <label for="appointment">Date of Appointment : </label>
+      <input class="appointment-input" type="datetime-local" />
+      <br />
+      <label>What time for the appointment?</label>
+      <input class="appointment-input" type="time" />
+      <br />
+      <label>Please select the week if you are unable to attend : </label>
+      <input class="appointment-input" type="week" />
+      <br />
+      <label>Do you like our service</label>
+      <br />
+      <input
+        class="appointment-input"
+        type="range"
+        value="50"
+        min="0"
+        max="100"
+      />
+      <br />
+      <input class="appointment-input reset-btn" type="button" value="Reset" />
+      <input
+        class="appointment-input submit-btn"
+        type="submit"
+        value="Submit"
+      />
+    </div>
+  </body>
+</html>
